@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import page from '../../public/Page_not_found.png';
 
 
 const ErrorPage = () => {
@@ -9,8 +10,8 @@ const ErrorPage = () => {
             <div className="flex items-center justify-center min-h-screen">
                 <div className="flex flex-col">
                     <div className="flex flex-col items-center">
-                        <div className="text-blue-600 font-bold text-7xl">
-                            404
+                        <div >
+                            <img src={page} alt="" className="h-[400px]" />
                         </div>
 
                         <div className="font-bold text-3xl xl:text-7xl lg:text-6xl md:text-5xl mt-10">
@@ -24,8 +25,8 @@ const ErrorPage = () => {
 
 
                     <div className="flex flex-col mt-4">
-                        <div className="text-gray-400 font-bold uppercase">
-                            Continue With
+                        <div className="text-gray-400 text-center font-bold uppercase">
+                            You Can Go To
                         </div>
 
                         <div className="flex flex-col items-stretch mt-5">
@@ -35,7 +36,7 @@ const ErrorPage = () => {
                     transition-all duration-200 delay-100">
 
 
-                                <div className="rounded-xl bg-blue-100 px-3 py-2 md:py-4">
+                                <div className="rounded-xl bg-blue-300 px-3 py-2 md:py-4">
                                     <i className="mdi mdi-home-outline mx-auto 
                             text-indigo-900 text-2xl md:text-3xl"></i>
                                 </div>
