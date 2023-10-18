@@ -13,7 +13,7 @@ const Footer = () => {
                         </a>
                         <p className="mt-2 text-sm text-black">No 1 Cosmetics and Beauty Shop For You!</p>
                         <div className="mt-4">
-                            <span className="flex lg:justify-start justify-items-center mt-2 sm:justify-center">
+                            <span className="flex lg:justify-start justify-items-center mt-2 justify-center">
 
                                 <a className="text-white cursor-pointer hover:text-gray-700">
                                     <img src="https://i.ibb.co/w0ZjxMz/facebook.png" alt="" className="w-10 h-10" />

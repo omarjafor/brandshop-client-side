@@ -65,7 +65,7 @@ const Login = () => {
 
         sendPasswordResetEmail(auth, email)
             .then(() => {
-                alert('Please Check Your Email');
+                toast.success('Please Check Your Email');
             })
             .catch(error => {
                 console.log(error.message);
@@ -115,7 +115,7 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-6 pt-0">
+                    <div className="p-6 pt-0 text-center">
                         <button
                             className="block w-full select-none rounded-lg bg-gradient-to-tr from-blue-600 to-teal-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                             type="submit"
