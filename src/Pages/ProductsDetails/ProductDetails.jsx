@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const ProductDetails = () => {
     const { user } = useHook();
-    const email = user.email;
+    const email = user?.email;
 
     const product = useLoaderData();
     const { productName, brandName, type, price, description, rating, photo } = product || {};
