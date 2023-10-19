@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import toast from "react-hot-toast";
 
 
@@ -16,7 +17,7 @@ const AddProduct = () => {
         const product = { productName, brandName, type, price, description, rating, photo }
         console.log(product);
 
-        fetch('http://localhost:5000/products', {
+        fetch('https://brandshop-server-side.vercel.app/products', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'
@@ -32,6 +33,9 @@ const AddProduct = () => {
     }
     return (
         <div className="p-24">
+            <Helmet>
+                <title>Bombshell Beauty | Add Product</title>
+            </Helmet>
             <h2 className="text-3xl text-center font-extrabold mb-3">Add New Product</h2>
             <p className="text-2xl text-center font-bold mb-10">Give Your Entire Product Details Here</p>
             <form onSubmit={handleAddProduct} >

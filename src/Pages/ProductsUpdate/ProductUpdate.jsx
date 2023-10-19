@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 
 const ProductUpdate = () => {
@@ -19,7 +20,7 @@ const ProductUpdate = () => {
         const updatedProduct = { productName, brandName, type, price, description, rating, photo }
         console.log(updatedProduct);
 
-        fetch(`http://localhost:5000/products/${_id}`, {
+        fetch(`https://brandshop-server-side.vercel.app/products/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type' : 'application/json'
@@ -37,6 +38,9 @@ const ProductUpdate = () => {
 
     return (
         <div className="p-24">
+            <Helmet>
+                <title>Bombshell Beauty | Update Product</title>
+            </Helmet>
             <h2 className="text-3xl text-center font-extrabold mb-3">Update {brandName} {productName}</h2>
             <p className="text-2xl text-center font-bold mb-10">You Can Update {productName} Details Here</p>
             <form onSubmit={handleUpdateProduct} >

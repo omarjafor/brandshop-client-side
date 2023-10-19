@@ -8,7 +8,7 @@ const Profile = () => {
     const { user } = useHook();
 
     return (
-        <div className="flex justify-center gap-8 items-center h-[80vh] flex-col lg:flex-row">
+        <div className="flex justify-center gap-8 items-center flex-col my-24 mx-5 lg:flex-row">
             <Helmet>
                 <title>Bombshell Beauty | Profile</title>
             </Helmet>

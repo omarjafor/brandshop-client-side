@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import ReactStars from 'react-stars';
 import useHook from "../../Hooks/UseHook";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 
 const ProductDetails = () => {
@@ -13,9 +14,9 @@ const ProductDetails = () => {
 
     const handleAddToCart = e => {
         e.preventDefault();
-        const myCartProduct = {...product, email} ;
+        const myCartProduct = { productName, brandName, type, price, description, rating, photo, email} ;
 
-        fetch('http://localhost:5000/mycart', {
+        fetch('https://brandshop-server-side.vercel.app/mycart', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -31,6 +32,9 @@ const ProductDetails = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Bombshell Beauty | Details</title>
+            </Helmet>
             <div className="mx-auto py-12 w-5/6 grid gap-10 grid-cols-1 lg:grid-cols-2 justify-items-center">
                 <div className="mb-12 flex flex-col overflow-hidden rounded-xl shadow-md">
                     <img

@@ -10,28 +10,28 @@ const Navbar = () => {
         <>
             <li><NavLink to='/'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-blue-600 text-lg font-bold underline outline-offset-8" : ""}
+                    isPending ? "pending" : isActive ? "text-green-300 text-xl font-bold underline outline-offset-8" : "font-bold lg:text-white text-lg"}
             >Home</NavLink></li>
             <li><NavLink to='/addproduct'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-blue-600 text-lg font-bold underline outline-offset-8" : ""}
+                    isPending ? "pending" : isActive ? "text-green-300 text-xl font-bold underline outline-offset-8" : "font-bold lg:text-white text-lg"}
             >Add Product</NavLink></li>
             <li><NavLink to='/mycart'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-blue-600 text-lg font-bold underline outline-offset-8" : ""}
+                    isPending ? "pending" : isActive ? "text-green-300 text-xl font-bold underline outline-offset-8" : "font-bold lg:text-white text-lg"}
             >My Cart</NavLink></li>
             {
                 user?.email && 
                 <li><NavLink to='/profile'
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-blue-600 text-lg font-bold underline outline-offset-8" : ""}
+                        isPending ? "pending" : isActive ? "text-green-300 text-xl font-bold underline outline-offset-8" : "font-bold lg:text-white text-lg"}
                 >Profile</NavLink></li>
             }
         </>
 
     return (
         <>
-            <nav className="navbar">
+            <nav className="navbar px-12 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -77,9 +77,9 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             :
-                            <Link to='/login'>
-                                <button className="btn btn-sm  btn-ghost">Login</button>
-                            </Link>
+                            <NavLink to='/login' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-green-300 text-xl mt-3 font-bold underline outline-offset-8" : "font-bold lg:text-white mt-3 text-lg"}>Login
+                            </NavLink>
                     }
                 </div>
             </nav>
