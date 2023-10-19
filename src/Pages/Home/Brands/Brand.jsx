@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ReactStars from 'react-stars';
 
 const Brand = ({ brand }) => {
 
@@ -18,13 +17,6 @@ const Brand = ({ brand }) => {
                 <h4 className="text-black text-2xl antialiased font-bold leading-snug tracking-normal text-center">
                     {name}
                 </h4>
-                <div>
-                    <ReactStars
-                    count={5}
-                    value={3}
-                    size={24}
-                    color2={'#ffd700'} />
-                </div>
             </div>
         </Link>
     );

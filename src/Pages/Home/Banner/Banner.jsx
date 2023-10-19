@@ -9,8 +9,8 @@ const Banner = () => {
                     <form>
                         <div className="relative">
                             <div className="md:p-6 space-y-4">
-                                <h2 className="text-4xl lg:text-7xl font-bold text-lime-500">50% OFF</h2>
-                                <h2 className="text-4xl lg:text-7xl font-bold text-blue-600">Bombshell Beauty</h2>
+                                <h2 className="text-4xl lg:text-7xl font-bold text-lime-500 drop-shadow-xl">50% OFF</h2>
+                                <h2 className="text-4xl lg:text-7xl font-bold text-blue-600 drop-shadow-2xl">Bombshell Beauty</h2>
                                 <h2 className="text-3xl lg:text-5xl font-bold text-[#0B0B0B]">Best Cosmetics and Beauty Brand Shop</h2>
                                 <Link to='/' className="block w-3/5 lg:w-1/6 mx-auto mt-6 py-2 overflow-hidden rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 hover:bg-gradient-to-tl bg-clip-border shadow-lg shadow-pink-500/40 font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
                                     Shop Now
