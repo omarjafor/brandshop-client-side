@@ -1,29 +1,32 @@
 import { useLoaderData } from "react-router-dom";
 import ReactStars from 'react-stars';
-// import toast from "react-hot-toast";
+import useHook from "../../Hooks/UseHook";
+import toast from "react-hot-toast";
 
 
 const ProductDetails = () => {
+    const { user } = useHook();
+    const email = user.email;
 
     const product = useLoaderData();
     const { productName, brandName, type, price, description, rating, photo } = product || {};
 
     const handleAddToCart = e => {
         e.preventDefault();
-        console.log(product);
+        const myCartProduct = {...product, email} ;
 
-        // fetch('http://localhost:5000/products', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(product)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         console.log(data)
-        //         toast.success('Added To MyCart Successful');
-        //     })
+        fetch('http://localhost:5000/mycart', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(myCartProduct)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                toast.success('Added To MyCart Successful');
+            })
     }
 
     return (
