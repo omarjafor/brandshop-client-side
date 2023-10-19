@@ -27,11 +27,11 @@ const Product = ({ prod }) => {
                             <p>Type : { type } </p>
                         </div>
                         <div>
-                            <p><ReactStars
+                            <ReactStars
                                 count={5}
-                                value={rating}
+                                value={Number(rating)}
                                 size={24}
-                                color2={'#ffd700'} /> </p>
+                                color2={'#ffd700'} />
                             <p className=" text-base font-medium text-right text-black antialiased">
                                 ${price}
                             </p>
