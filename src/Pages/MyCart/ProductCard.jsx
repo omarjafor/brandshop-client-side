@@ -40,8 +40,8 @@ const ProductCard = ({ prod, cartProduct, setCartProduct }) => {
     return (
         <section>
             <div className="my-10">
-                <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gradient-to-br from-blue-500  to-cyan-500 hover:bg-gradient-to-tl hover:from-green-400 hover:to-lime-400 bg-clip-border text-gray-700 shadow-md">
-                    <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+                <div className="relative flex flex-col lg:flex-row w-full max-w-fit lg:max-w-[48rem] rounded-xl bg-gradient-to-br from-blue-500  to-cyan-500 hover:bg-gradient-to-tl hover:from-green-400 hover:to-lime-400 bg-clip-border text-gray-700 shadow-md">
+                    <div className="relative m-0 w-full lg:w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                         <img
                             src={photo}
                             alt="image"

@@ -18,7 +18,7 @@ const BestSell = () => {
 
 
     return (
-        <div className="my-10 mx-24">
+        <div className="my-10 mx-16 lg:mx-24">
             <div className="my-4" data-aos="zoom-in-up">
                 <h2 className="text-2xl text-green-500 font-semibold italic mb-3">Trending Products</h2>
                 <h2 className="text-4xl font-bold drop-shadow-[-1px_3px_1px_rgba(17,131,6,0.6)] bg-gradient-to-br from-green-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">Best Selling Products</h2>

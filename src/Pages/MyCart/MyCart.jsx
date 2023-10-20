@@ -21,7 +21,7 @@ const MyCart = () => {
     }, [email, loadedProduct])
     
     return (
-        <div className='mx-12'>
+        <div className='lg:mx-12'>
             <Helmet>
                 <title>Bombshell Beauty | My Cart</title>
             </Helmet>

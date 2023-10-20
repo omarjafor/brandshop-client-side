@@ -16,12 +16,12 @@ const WhyUs = () => {
     }, [])
 
     return (
-        <section className="mx-20">
-            <div className='mt-10 py-10' data-aos="zoom-in-up">
+        <section className="mx-12 space-y-5 lg:mx-24">
+            <div className='mt-10 py-2' data-aos="zoom-in-up">
                 <h1 className='text-4xl font-bold text-center drop-shadow-[-1px_4px_2px_rgba(17,131,6,0.6)] bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent'>Why Bombshell Beauty!</h1>
                 <p className='max-w-3xl mx-auto px-5 my-4 text-base text-gray-500'>At Bombshell Beauty, we are your ultimate beauty destination. Explore top brands, discover best-sellers, and even contribute your own products. Shop with exclusive offers, and enjoy a seamless experience with easy login and registration. Join us in the pursuit of beauty and self-expression</p>
             </div>
-            <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 text-left mx-10 mb-10 px-20 pb-20">
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 text-left mx-10 mb-10 pb-20">
                 <div className="max-w-[400px]" data-aos="zoom-in-up">
                     <small className="text-lg text-[#878787] uppercase [word-spacing:6px] tracking-widest pt-2 border-solid border-green-500 border-t-2">We Are Bombshell Beauty</small>
                     <h1 className="text-4xl mb-8 mt-5 font-semibold drop-shadow-[-1px_2px_0px_rgba(17,131,6,0.6)] bg-gradient-to-br from-green-600 via-blue-500 to-purple-600 bg-clip-text text-transparent"><strong>No.1</strong> Brand Shop for Beauty</h1>
