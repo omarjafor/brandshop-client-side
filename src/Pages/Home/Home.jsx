@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import Brands from "./Brands/Brands";
 import BestSell from "./BestSell/BestSell";
 import BrandsOffer from "./BrandsOffer/BrandsOffer";
+import WhyUs from "./WhyUs/WhyUs";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Brands></Brands>
             <BestSell></BestSell>
             <BrandsOffer></BrandsOffer>
+            <WhyUs></WhyUs>
         </div>
     );
 };

@@ -9,7 +9,7 @@ const Root = () => {
     return (
         <div className="relative">
             <ScrollToTop></ScrollToTop>
-            <div className="sticky inset-0 z-10 bg-opacity-70">
+            <div className="sticky inset-0 z-10">
                 <Navbar></Navbar>
             </div>
             <div className="relative z-0 overflow-x-hidden">
