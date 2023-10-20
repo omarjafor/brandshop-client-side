@@ -13,8 +13,8 @@ const Brands = () => {
     } , [])
 
     return (
-        <div className="m-10">
-            <h2 className="text-3xl font-bold text-black text-center">Our Top Brands</h2>
+        <div className="mx-10 my-20">
+            <h1 className="text-3xl font-bold text-black dark:text-white text-center">Our Top Brands</h1>
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-6">
                 {
                     brands.map(brand => <Brand key={brand._id}
