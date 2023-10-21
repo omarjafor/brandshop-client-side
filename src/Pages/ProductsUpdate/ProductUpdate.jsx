@@ -41,14 +41,14 @@ const ProductUpdate = () => {
             <Helmet>
                 <title>Bombshell Beauty | Update Product</title>
             </Helmet>
-            <h2 className="text-3xl text-center font-extrabold mb-3">Update {brandName} {productName}</h2>
-            <p className="text-2xl text-center font-bold mb-10">You Can Update {productName} Details Here</p>
+            <h2 className="text-3xl text-center font-extrabold mb-3 drop-shadow-[-1px_3px_1px_rgba(17,131,6,0.6)] bg-gradient-to-br from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">Update {productName}</h2>
+            <p className="text-2xl text-center font-bold mb-10 drop-shadow-[-1px_3px_1px_rgba(17,131,6,0.6)] bg-gradient-to-br from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">You Can Update {productName} Details Here</p>
             <form onSubmit={handleUpdateProduct} >
                 {/* form name and quantity row */}
                 <div className="md:flex mb-8 md:justify-center md:justify-items-center">
                     <div className="form-control md:w-1/3">
                         <label className="label">
-                            <span className="font-bold text-lg">Product Name</span>
+                            <span className="font-bold text-lg text-green-600">Product Name</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="name" placeholder="Product Name" defaultValue={ productName } className="input input-bordered w-full" />
@@ -56,7 +56,7 @@ const ProductUpdate = () => {
                     </div>
                     <div className="form-control md:w-1/3 ml-4">
                         <label className="label">
-                            <span className="font-bold text-lg">Brand Name</span>
+                            <span className="font-bold text-lg text-green-600">Brand Name</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="brandname" placeholder="Brand Name" defaultValue={ brandName } className="input input-bordered w-full" />
@@ -67,7 +67,7 @@ const ProductUpdate = () => {
                 <div className="md:flex mb-8 md:justify-center md:justify-items-center">
                     <div className="form-control md:w-1/3">
                         <label className="label">
-                            <span className="font-bold text-lg">Product Type</span>
+                            <span className="font-bold text-lg text-green-600">Product Type</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="type" placeholder="Product Type" defaultValue={ type } className="input input-bordered w-full" />
@@ -75,7 +75,7 @@ const ProductUpdate = () => {
                     </div>
                     <div className="form-control md:w-1/3 ml-4">
                         <label className="label">
-                            <span className="font-bold text-lg">Price</span>
+                            <span className="font-bold text-lg text-green-600">Price</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="price" placeholder="Price" defaultValue={ price } className="input input-bordered w-full" />
@@ -86,7 +86,7 @@ const ProductUpdate = () => {
                 <div className="md:flex mb-8 md:justify-center md:justify-items-center">
                     <div className="form-control md:w-1/3">
                         <label className="label">
-                            <span className="font-bold text-lg">Short Description</span>
+                            <span className="font-bold text-lg text-green-600">Short Description</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="description" placeholder="Short Description" defaultValue={ description } className="input input-bordered w-full" />
@@ -94,7 +94,7 @@ const ProductUpdate = () => {
                     </div>
                     <div className="form-control md:w-1/3 ml-4">
                         <label className="label">
-                            <span className="font-bold text-lg">Ratings</span>
+                            <span className="font-bold text-lg text-green-600">Ratings</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="rating" placeholder="Ratings" defaultValue={ rating } className="input input-bordered w-full" />
@@ -105,7 +105,7 @@ const ProductUpdate = () => {
                 <div className="mb-8 md:flex md:justify-center md:justify-items-center">
                     <div className="form-control md:w-1/3">
                         <label className="label">
-                            <span className="font-bold text-lg">Photo URL</span>
+                            <span className="font-bold text-lg text-green-600">Photo URL</span>
                         </label>
                         <label className="input-group">
                             <input type="text" name="photo" placeholder="Photo URL" defaultValue={ photo } className="input input-bordered w-full" />

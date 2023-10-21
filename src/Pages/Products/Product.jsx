@@ -17,14 +17,14 @@ const Product = ({ prod }) => {
                 </div>
                 <div className="p-6">
                     <div className="mb-2 flex items-center justify-between">
-                        <p className="block font-sans text-lg font-bold leading-relaxed text-black antialiased">
+                        <p className="block text-lg font-bold leading-relaxed text-black antialiased">
                             {productName}
                         </p>
                     </div>
                     <div className="flex justify-between">
                         <div>
-                            <p>Brand Name : { brandName } </p>
-                            <p>Type : { type } </p>
+                            <p className="text-base font-bold leading-relaxed text-slate-800">Brand Name : { brandName } </p>
+                            <p className="text-base font-bold leading-relaxed text-slate-800">Type : { type } </p>
                         </div>
                         <div>
                             <ReactStars
@@ -32,21 +32,21 @@ const Product = ({ prod }) => {
                                 value={Number(rating)}
                                 size={24}
                                 color2={'#ffd700'} />
-                            <p className=" text-base font-medium text-right text-black antialiased">
+                            <p className="text-xl font-semibold text-right text-black antialiased">
                                 ${price}
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="p-6 pt-0 space-y-3">
+                <div className="flex gap-5 p-6 pt-0">
                     <Link to={`/updateProduct/${_id}`}
-                        className="block w-full select-none rounded-lg bg-blue-500 hover:bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white hover:text-black transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        className="block w-1/2 select-none rounded-lg bg-blue-600 hover:bg-green-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white hover:text-black transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
                     >
                         Update Product
                     </Link>
                     <Link to={`/productdetails/${_id}`}
-                        className="block w-full select-none rounded-lg bg-blue-500 hover:bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white hover:text-black transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        className="block w-1/2 select-none rounded-lg bg-blue-600 hover:bg-green-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white hover:text-black transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
                     >
                         Product Details

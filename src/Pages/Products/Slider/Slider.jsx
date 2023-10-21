@@ -37,22 +37,22 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://i.ibb.co/1G1q9RP/cosmetics-beauty.jpg" alt="" />
+          <img src="https://i.ibb.co/gVxQzvK/ads-banner-1.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/cr9fHfp/Kumarika-puja.jpg" alt="" />
+          <img src="https://i.ibb.co/rMfr1Vb/Kumarika-puja.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/sj8gDr2/Neutrogena.png" alt="" />
+          <img src="https://i.ibb.co/5TH2LvW/ads-banner-3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/TTBMbph/Shajgoj-Nirvana.gif" alt="" />
+          <img src="https://i.ibb.co/dWSNMH9/Shajgoj-Nirvana.gif" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/9NF9sDj/Simple.png" alt="" />
+          <img src="https://i.ibb.co/hVJ9dpx/ads-banner-5.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/HG8NZPF/The-Body-Shop.png" alt="" />
+          <img src="https://i.ibb.co/mRXHP5D/Simple.png" alt="" />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
