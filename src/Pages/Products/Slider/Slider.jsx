@@ -37,22 +37,22 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://i.ibb.co/gVxQzvK/ads-banner-1.jpg" alt="" />
+          <img src="https://i.ibb.co/FVhB82S/banner-2.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/rMfr1Vb/Kumarika-puja.jpg" alt="" />
+          <img src="https://i.ibb.co/sbmch2k/banner-3.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/5TH2LvW/ads-banner-3.jpg" alt="" />
+          <img src="https://i.ibb.co/1rmnSmG/banner-5.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/dWSNMH9/Shajgoj-Nirvana.gif" alt="" />
+          <img src="https://i.ibb.co/cbH23t3/banner-1.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/hVJ9dpx/ads-banner-5.jpg" alt="" />
+          <img src="https://i.ibb.co/BzzWqJM/banner-4.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.ibb.co/mRXHP5D/Simple.png" alt="" />
+          <img src="https://i.ibb.co/DQcTm0X/banner-6.jpg" alt="" />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>

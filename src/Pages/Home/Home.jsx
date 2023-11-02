@@ -4,6 +4,7 @@ import Brands from "./Brands/Brands";
 import BestSell from "./BestSell/BestSell";
 import BrandsOffer from "./BrandsOffer/BrandsOffer";
 import WhyUs from "./WhyUs/WhyUs";
+import Reviews from "./Reviews/Reviews";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <BestSell></BestSell>
             <BrandsOffer></BrandsOffer>
             <WhyUs></WhyUs>
+            <Reviews></Reviews>
         </div>
     );
 };

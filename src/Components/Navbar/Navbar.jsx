@@ -48,7 +48,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar px-12 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+            <nav className="navbar px-12 bg-transparent bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Navbar = () => {
                     <Link to='/'><img src={logo} alt="" className="h-28"/></Link>
                 </div>
 
-
+                
 
                 {/* avatar part  */}
                 <div className="navbar-end">

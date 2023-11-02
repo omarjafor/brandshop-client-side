@@ -27,7 +27,7 @@ const BrandsOffer = () => {
                 </div>
                 <div className="venue-list grid-cols-1 lg:grid-cols-2">
                     <div className="venue-box" data-aos="fade-up-right">
-                        <img src="https://i.ibb.co/dWSNMH9/Shajgoj-Nirvana.gif" alt="img" />
+                        <img src="https://i.ibb.co/9rwZXY5/brandsoffer-1.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Dior</h2>
                                 <p>Beauty Product Buy Now</p>
@@ -35,7 +35,7 @@ const BrandsOffer = () => {
                             </div>
                     </div>
                     <div className="venue-box" data-aos="fade-up-left">
-                        <img src="https://i.ibb.co/rMfr1Vb/Kumarika-puja.jpg" alt="img" />
+                        <img src="https://i.ibb.co/L9ynhfL/brandsoffer-2.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Revlon</h2>
                             <p>Beauty Product Buy Now</p>
@@ -43,7 +43,7 @@ const BrandsOffer = () => {
                             </div>
                     </div>
                     <div className="venue-box" data-aos="fade-up-right">
-                        <img src="https://i.ibb.co/tDxbmnv/Neutrogena.png" alt="img" />
+                        <img src="https://i.ibb.co/z2FzmLz/brandsoffer-3.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Coty</h2>
                             <p>Beauty Product Buy Now</p>
@@ -51,7 +51,7 @@ const BrandsOffer = () => {
                             </div>
                     </div>
                     <div className="venue-box" data-aos="fade-up-left">
-                        <img src="https://i.ibb.co/qgTQkwk/cosmetics-beauty.jpg" alt="img" />
+                        <img src="https://i.ibb.co/Jtw9Cj2/brandsoffer-4.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Urban Decay</h2>
                             <p>Beauty Product Buy Now</p>
@@ -59,7 +59,7 @@ const BrandsOffer = () => {
                             </div>
                     </div>
                     <div className="venue-box" data-aos="fade-up-right">
-                        <img src="https://i.ibb.co/mRXHP5D/Simple.png" alt="img" />
+                        <img src="https://i.ibb.co/7bBzJMb/brandsoffer-5.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Chanel</h2>
                             <p>Beauty Product Buy Now</p>
@@ -67,7 +67,7 @@ const BrandsOffer = () => {
                             </div>
                     </div>
                     <div className="venue-box" data-aos="fade-up-left">
-                        <img src="https://i.ibb.co/xsmcyV7/The-Body-Shop.png" alt="img" />
+                        <img src="https://i.ibb.co/svnDJmw/brandsoffer-6.webp" alt="img" />
                             <div className="venue-info">
                                 <h2>Loreal</h2>
                             <p>Beauty Product Buy Now</p>
