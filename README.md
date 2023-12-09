@@ -2,6 +2,9 @@
 
 ## [ Live Link](https://bombshell-beauty-omarjafor.web.app/)
 
+### Technology Used: 
+#### React.js, Node.js, MongoDB, Express js, Firebase, Tailwind, React Router, React Helmet, React toast, keen slider, swiper, react-stars, Sweet Alert.
+
 ### &rarr; Bombshell Beauty Brand Shop Project Features ?
 
 ### &#9755; 1. User Registration and Login:
